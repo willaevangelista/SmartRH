@@ -11,7 +11,7 @@ function Navbar() {
 
                     <div className='flex gap-6 text-2xl font-bold'>
                         <span>Sobre Nós</span>
-                        <span>Produto</span>
+                        <Link to='/Produto'>Produto</Link>
                     </div>
                 </div>
             </div>
