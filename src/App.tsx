@@ -1,14 +1,22 @@
-import Home from './pages/home/Home'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Footer from './components/footer/Footer'
+import Navbar from './components/navbar/Navbar'
+
 import './App.css'
-import './index.css'
 
 function App() {
-
   return (
     <>
-      <h1>SmartRH</h1>
-      <p>Texto exemplificativo</p>
-      <Home />
+        <BrowserRouter>
+          <Navbar />
+          <div className="min-h-[80vh]">
+            <Routes>
+              
+       
+            </Routes>
+          </div>
+          <Footer />
+        </BrowserRouter>
     </>
   )
 }
