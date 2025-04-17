@@ -1,5 +1,8 @@
-// export default interface Categoria {
-//     id: number;
-//     nome: string;
-//     descricao: string;
-// }
+export default interface Card {
+    nome: string;
+    foto: string;
+    descricao: string;
+    linkedin: string; 
+    github: string;
+    linktree?: string;
+}

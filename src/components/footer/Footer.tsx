@@ -1,3 +1,4 @@
+
     import {
     FacebookLogo,
     InstagramLogo,
@@ -20,21 +21,21 @@
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <LinkedinLogo size={28} weight="bold" />
+                <LinkedinLogo size={40} weight="bold" />
             </a>
             <a
                 href="https://www.instagram.com/generationbrasil"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <InstagramLogo size={28} weight="bold" />
+                <InstagramLogo size={40} weight="bold" />
             </a>
             <a
                 href="https://www.facebook.com/generationbrasil"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <FacebookLogo size={28} weight="bold" />
+                <FacebookLogo size={40} weight="bold" />
             </a>
             </div>
         </div>

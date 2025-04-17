@@ -13,8 +13,10 @@
             </Link>
 
             <div className="flex gap-6 text-2xl py-4 px-4 font-rubik font-bold">
-                <span>Sobre Nós</span>
-                <span>Produto</span>
+                    <div className='flex gap-6 text-2xl font-bold'>
+                        <Link to="/SobreNos">Sobre Nós</Link>
+                        <Link to='/Produto'>Produto</Link>
+                    </div>
             </div>
             </div>
         </div>
